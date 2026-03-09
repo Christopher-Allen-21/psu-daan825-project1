@@ -4,10 +4,10 @@
 - **docker images** - lists Docker images
 - **docker ps** - lists only running Docker containers
   - **docker ps -a** - lists all Docker containers
-- **docker rmi** - removes one or more specified images; ex: docker rmi <my-image>:latest
-- **docker build** - builds a new Docker image from a Dockerfile and a "context" (set of files at a specific path); ex: docker build -t <my-image-name>:tag .
-- **docker run** - creates and starts a new container from a specified Docker image; ex: docker run <my-image>
-  - **docker run -it** - starts a container in interactive mode; ex: docker run -it <my-image>
+- **docker rmi** - removes one or more specified images; ex: docker rmi my-image:latest
+- **docker build** - builds a new Docker image from a Dockerfile and a "context" (set of files at a specific path); ex: docker build -t my-image-name:tag .
+- **docker run** - creates and starts a new container from a specified Docker image; ex: docker run my-image
+  - **docker run -it** - starts a container in interactive mode; ex: docker run -it my-image
 
 
 ## Introduction
