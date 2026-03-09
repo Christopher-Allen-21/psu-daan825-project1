@@ -5,16 +5,16 @@
 - **docker ps** - lists only running Docker containers
   - **docker ps -a** - lists all Docker containers
 <br><br>
-- **docker rmi** - removes one or more specified images; ex: docker rmi my-image:latest
-- **docker build** - builds a new Docker image from a Dockerfile and a "context" (set of files at a specific path); ex: docker build -t my-image-name:tag .
+- **docker rmi `<`my-image`>`:latest** - removes one or more specified images
+- **docker build -t `<`my-image-name:tag`>` .** - builds a new Docker image from a Dockerfile and a "context" (set of files at a specific path)
 <br><br>
-- **docker run** - creates and starts a new container from a specified Docker image; ex: docker run my-image
-  - **docker run -it** - starts a container in interactive mode; ex: docker run -it my-image
+- **docker run `<`my-image`>`** - creates and starts a new container from a specified Docker image
+  - **docker run -it `<`my-image`>`** - starts a container in interactive mode
 - **docker stop** - stops a container; ex: docker stop my-container-id
 
 
 ## Running PostgreSQL in Docker Container
-- **docker exec -i -t <my-container-id> bash** - get bash access in running container
+- **docker exec -i -t To display the character, use `<`my-container-id`>` bash** - get bash access in running container
 - **psql -h localhost -p 5432 -d student -U student –-password** - connect to postgresql (I am using "student" as the password)
 - **\list** - get a list of databases
 - **\q** - quits psql
