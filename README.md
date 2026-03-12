@@ -10,7 +10,8 @@
 - **docker rmi `<`my-image`>`:latest** - removes one or more specified images
 <br><br>
 - **docker run `<`my-image`>`** - creates and starts a new container from a specified Docker image
-  - **docker run -it `<`my-image`>`** - starts a container in interactive mode
+  - **docker run -it `<`my-image`>`** - creates and starts a container in interactive mode
+- **docker start `<`my-containter-id`>`** - starts a previously created container
 - **docker stop `<`my-container-id`>`** - stops a container
 - **docker rm `<`my-container-name-or-id`>`** - deletes a container
 
