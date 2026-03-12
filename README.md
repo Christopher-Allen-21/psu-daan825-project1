@@ -6,8 +6,8 @@
 - **docker ps** - lists only running Docker containers
   - **docker ps -a** - lists all Docker containers
 <br><br>
-- **docker rmi `<`my-image`>`:latest** - removes one or more specified images
 - **docker build -t `<`my-image-name:tag`>` .** - builds a new Docker image from a Dockerfile and a "context" (set of files at a specific path)
+- **docker rmi `<`my-image`>`:latest** - removes one or more specified images
 <br><br>
 - **docker run `<`my-image`>`** - creates and starts a new container from a specified Docker image
   - **docker run -it `<`my-image`>`** - starts a container in interactive mode
