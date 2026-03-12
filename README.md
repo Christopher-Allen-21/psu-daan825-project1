@@ -1,6 +1,7 @@
 # psu-daan825-project1
 
 ## Docker Commands
+- **open -a Docker** - open Docker desktop to run docker commands locally
 - **docker images** - lists Docker images
 - **docker ps** - lists only running Docker containers
   - **docker ps -a** - lists all Docker containers
