@@ -12,6 +12,8 @@
 - **docker run `<`my-image`>`** - creates and starts a new container from a specified Docker image
   - **docker run -it `<`my-image`>`** - starts a container in interactive mode
 - **docker stop `<`my-container-id`>`** - stops a container
+- **docker rm `<`my-container-name-or-id`>`** - deletes a container
+
 
 
 ## Running PostgreSQL in Docker Container
