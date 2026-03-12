@@ -10,8 +10,10 @@
 - **docker rmi `<`my-image`>`:latest** - removes one or more specified images
 <br><br>
 - **docker run `<`my-image`>`** - creates and starts a new container from a specified Docker image
-  - **docker run -it `<`my-image`>`** - creates and starts a container in interactive mode
+  - **docker run -it `<`my-image`>`** - creates and starts a new container in interactive mode
 - **docker start `<`my-containter-id`>`** - starts a previously created container
+- **docker exec -it `<`my-containter-id`>`/bin/bash** - open a bash terminal in an already running container
+- **exit** - closes terminal session if at the container shell (if prompt looks like "postgres@0e857eadc3dc:/$")
 - **docker stop `<`my-container-id`>`** - stops a container
 - **docker rm `<`my-container-name-or-id`>`** - deletes a container
 
@@ -22,7 +24,6 @@
 - **psql -h localhost -p 5432 -d student -U student –-password** - connect to postgresql (I am using "student" as the password)
 - **\list** - get a list of databases
 - **\q** - quits psql if inside the PostgreSQL client (if prompt looks like "psql=#" or "postgres=#")
-- **exit** - quits postgres if your at the container shell (if prompt looks like "postgres@0e857eadc3dc:/$")
 
 
 ## Introduction
