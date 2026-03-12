@@ -28,3 +28,20 @@
 
 ## Introduction
 Campaign finance data provides valuable insight into the dynamics of political elections. This data includes who contributes to candidates, where contributions originate, and how fundraising trends evolve over time. The Federal Election Commission (FEC) maintains detailed records of individual and organizational contributions to federal candidates. In this project, we will examine the FEC campaign finance contribution data from the 2024 election cycle for two candidates from each party using data from four states.
+
+## Accessing PostgrSQL from DBeaver
+- Have psu-postgresql docker container running along with postgres inside the docker container
+- Open DBeaver
+- Click "New Database Connection"
+- <img width="1356" height="945" alt="Screenshot 2026-03-12 at 9 58 32 AM" src="https://github.com/user-attachments/assets/83972c48-7a29-46f4-9a14-f32604be6255" />
+- Choose PostgreSQL
+- <img width="1416" height="856" alt="Screenshot 2026-03-12 at 10 00 11 AM" src="https://github.com/user-attachments/assets/d733a9ab-645c-40b1-a05a-f110b9296cb3" />
+- Enter the connection settings (**make sure "Show all databases" is selected**)
+- <img width="688" height="595" alt="Screenshot 2026-03-12 at 10 01 09 AM" src="https://github.com/user-attachments/assets/46e5bab2-3419-47c7-831d-edaefc3b8678" />
+- After clicking Finish and installing the drivers you should see student database
+- <img width="1407" height="879" alt="Screenshot 2026-03-12 at 10 02 03 AM" src="https://github.com/user-attachments/assets/06d1a22b-d535-4a9c-b673-13426803a227" />
+
+
+
+
+
