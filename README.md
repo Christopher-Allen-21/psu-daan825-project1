@@ -20,7 +20,7 @@
 
 
 ## Running PostgreSQL in Docker Container
-- **docker exec -i -t To display the character, use `<`my-container-id`>` bash** - get bash access in running container
+- **docker exec -i -t `<`my-container-id`>` bash** - get bash access in running container
 - **psql -h localhost -p 5432 -d student -U student –-password** - connect to postgresql (I am using "student" as the password)
 - **\list** - get a list of databases
 - **\q** - quits psql if inside the PostgreSQL client (if prompt looks like "psql=#" or "postgres=#")
