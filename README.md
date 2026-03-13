@@ -22,8 +22,11 @@
 ## Running PostgreSQL in Docker Container
 - **docker exec -i -t `<`my-container-id`>` bash** - get bash access in running container
 - **psql -h localhost -p 5432 -d student -U student –-password** - connect to postgresql (I am using "student" as the password)
-- **\list** - get a list of databases
+- **\list** - view a list of databases
 - **\q** - quits psql if inside the PostgreSQL client (if prompt looks like "psql=#" or "postgres=#")
+- **\c `<`database-name`>`** - connect to a particular database
+- **\dt** - view of list of tables within the database you are connected to
+- **SELECT * FROM `<`table-name`>`;** - run valid SQL queries once connected to a database
 
 
 ## Introduction
