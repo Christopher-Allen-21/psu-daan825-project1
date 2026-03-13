@@ -46,8 +46,13 @@ Campaign finance data provides valuable insight into the dynamics of political e
 - <img width="1706" height="948" alt="Screenshot 2026-03-13 at 9 20 23 AM" src="https://github.com/user-attachments/assets/6eeb19bc-36d3-4bbe-b157-12b56e7aa33e" />
 - Drag the CSV Reader node over into drag and drop section
 - <img width="857" height="476" alt="Screenshot 2026-03-13 at 9 26 12 AM" src="https://github.com/user-attachments/assets/0a9eb0d1-d862-4456-b359-56530fd7b3a6" />
-- Right click on CSV Reader node and configure
-- <img width="856" height="468" alt="Screenshot 2026-03-13 at 9 25 57 AM" src="https://github.com/user-attachments/assets/2a003bc8-e401-4a01-b6ae-103004a7608a" />
+- Right click on CSV Reader node and configure (I selected the relevant file and changed the delimiter from "," to "|" to match the data file). You should see a preview of the data at the bottom
+- <img width="1142" height="999" alt="Screenshot 2026-03-13 at 9 30 02 AM" src="https://github.com/user-attachments/assets/2ce057d2-7610-4d1b-a142-76946db9e691" />
+- Drag in a PostgreSQL Connector node into the workflow. Right click and modify the connection settings. Input hostname, database name, port, and username and password to match what we have in Docker db
+- <img width="1707" height="936" alt="Screenshot 2026-03-13 at 9 33 14 AM" src="https://github.com/user-attachments/assets/2af811bf-daeb-44f4-94aa-6d2a2bc31158" />
+
+
+
 
 
 
