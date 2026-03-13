@@ -58,7 +58,7 @@ Campaign finance data provides valuable insight into the dynamics of political e
 - <img width="1058" height="701" alt="Screenshot 2026-03-13 at 10 30 41 AM" src="https://github.com/user-attachments/assets/235d41c0-6028-4729-87c7-2c49c92d4b24" />
 - <img width="1058" height="701" alt="Screenshot 2026-03-13 at 10 30 41 AM" src="https://github.com/user-attachments/assets/d0f7da27-9704-4a97-b3e7-39ba973ad229" />
 - Drag a PostgreSQL Connector node into the workflow. Right click and modify the connection settings. Input hostname, database name, port, and username and password to match what we have in Docker db
-- <img width="1707" height="936" alt="Screenshot 2026-03-13 at 9 33 14 AM" src="https://github.com/user-attachments/assets/2af811bf-daeb-44f4-94aa-6d2a2bc31158" />
+- <img width="1705" height="924" alt="Screenshot 2026-03-13 at 10 34 13 AM" src="https://github.com/user-attachments/assets/9ee4f136-f816-4479-a060-abe7e4b5390f" />
 - Attach the PostgreSQL Connector node to each of the DB Writer nodes
 - <img width="1289" height="757" alt="Screenshot 2026-03-13 at 10 31 53 AM" src="https://github.com/user-attachments/assets/5e4a50cd-6a9d-49b5-b464-2e6c90262f01" />
 
