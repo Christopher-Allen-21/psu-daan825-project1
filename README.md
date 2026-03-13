@@ -55,12 +55,13 @@ Campaign finance data provides valuable insight into the dynamics of political e
 - Drag a DB Writer node into the workflow. Set the table name to match the name in the postgreSQL database
 - <img width="856" height="390" alt="Screenshot 2026-03-13 at 10 19 48 AM" src="https://github.com/user-attachments/assets/2dffbf09-923e-4c2e-967b-1ce7f8721145" />
 - Do the above steps for each Dimension table and the Facts table
-- 
-
-
-
+- <img width="1058" height="701" alt="Screenshot 2026-03-13 at 10 30 41 AM" src="https://github.com/user-attachments/assets/235d41c0-6028-4729-87c7-2c49c92d4b24" />
+- <img width="1058" height="701" alt="Screenshot 2026-03-13 at 10 30 41 AM" src="https://github.com/user-attachments/assets/d0f7da27-9704-4a97-b3e7-39ba973ad229" />
 - Drag a PostgreSQL Connector node into the workflow. Right click and modify the connection settings. Input hostname, database name, port, and username and password to match what we have in Docker db
 - <img width="1707" height="936" alt="Screenshot 2026-03-13 at 9 33 14 AM" src="https://github.com/user-attachments/assets/2af811bf-daeb-44f4-94aa-6d2a2bc31158" />
+- Attach the PostgreSQL Connector node to each of the DB Writer nodes
+- <img width="1289" height="757" alt="Screenshot 2026-03-13 at 10 31 53 AM" src="https://github.com/user-attachments/assets/5e4a50cd-6a9d-49b5-b464-2e6c90262f01" />
+
 
 
 
