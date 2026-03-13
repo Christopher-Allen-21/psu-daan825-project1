@@ -64,6 +64,10 @@ Campaign finance data provides valuable insight into the dynamics of political e
 - <img width="1705" height="924" alt="Screenshot 2026-03-13 at 10 34 13 AM" src="https://github.com/user-attachments/assets/9ee4f136-f816-4479-a060-abe7e4b5390f" />
 - Attach the PostgreSQL Connector node to each of the DB Writer nodes
 - <img width="1289" height="757" alt="Screenshot 2026-03-13 at 10 31 53 AM" src="https://github.com/user-attachments/assets/5e4a50cd-6a9d-49b5-b464-2e6c90262f01" />
+- Execute DB Writer. Navigate to Docker container running PostgreSQL locally. Connect to student database, list tables, then select all from each table
+- <img width="1107" height="699" alt="Screenshot 2026-03-13 at 2 39 50 PM" src="https://github.com/user-attachments/assets/4932765d-2ac1-45f9-9078-144104fc6ec6" />
+
+
 
 
 
