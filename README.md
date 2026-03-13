@@ -41,6 +41,16 @@ Campaign finance data provides valuable insight into the dynamics of political e
 - After clicking Finish and installing the drivers you should see student database
 - <img width="1407" height="879" alt="Screenshot 2026-03-12 at 10 02 03 AM" src="https://github.com/user-attachments/assets/06d1a22b-d535-4a9c-b673-13426803a227" />
 
+## Create Knime Workflow
+- Create a new workflow
+- <img width="1706" height="948" alt="Screenshot 2026-03-13 at 9 20 23 AM" src="https://github.com/user-attachments/assets/6eeb19bc-36d3-4bbe-b157-12b56e7aa33e" />
+- Drag the CSV Reader node over into drag and drop section
+- <img width="857" height="476" alt="Screenshot 2026-03-13 at 9 26 12 AM" src="https://github.com/user-attachments/assets/0a9eb0d1-d862-4456-b359-56530fd7b3a6" />
+- Right click on CSV Reader node and configure
+- <img width="856" height="468" alt="Screenshot 2026-03-13 at 9 25 57 AM" src="https://github.com/user-attachments/assets/2a003bc8-e401-4a01-b6ae-103004a7608a" />
+
+
+
 
 
 
