@@ -48,7 +48,18 @@ Campaign finance data provides valuable insight into the dynamics of political e
 - <img width="857" height="476" alt="Screenshot 2026-03-13 at 9 26 12 AM" src="https://github.com/user-attachments/assets/0a9eb0d1-d862-4456-b359-56530fd7b3a6" />
 - Right click on CSV Reader node and configure (I selected the relevant file and changed the delimiter from "," to "|" to match the data file). You should see a preview of the data at the bottom
 - <img width="1142" height="999" alt="Screenshot 2026-03-13 at 9 30 02 AM" src="https://github.com/user-attachments/assets/2ce057d2-7610-4d1b-a142-76946db9e691" />
-- Drag in a PostgreSQL Connector node into the workflow. Right click and modify the connection settings. Input hostname, database name, port, and username and password to match what we have in Docker db
+- Drag a Column Filter node into the workflow. Filter out all columns except for the Dimension data for each table
+- <img width="1705" height="826" alt="Screenshot 2026-03-13 at 10 02 07 AM" src="https://github.com/user-attachments/assets/12bd53ce-8477-4edd-b94c-4f0c504f5ffd" />
+- Drag a Column Renamer node into the workflow. Rename the columns from the csv file to match the column names in the postgreSQL database
+- <img width="1704" height="589" alt="Screenshot 2026-03-13 at 10 17 03 AM" src="https://github.com/user-attachments/assets/aa325d49-67c5-450b-92b0-c335754b0721" />
+- Drag a DB Writer node into the workflow. Set the table name to match the name in the postgreSQL database
+- <img width="856" height="390" alt="Screenshot 2026-03-13 at 10 19 48 AM" src="https://github.com/user-attachments/assets/2dffbf09-923e-4c2e-967b-1ce7f8721145" />
+- Do the above steps for each Dimension table and the Facts table
+- 
+
+
+
+- Drag a PostgreSQL Connector node into the workflow. Right click and modify the connection settings. Input hostname, database name, port, and username and password to match what we have in Docker db
 - <img width="1707" height="936" alt="Screenshot 2026-03-13 at 9 33 14 AM" src="https://github.com/user-attachments/assets/2af811bf-daeb-44f4-94aa-6d2a2bc31158" />
 
 
